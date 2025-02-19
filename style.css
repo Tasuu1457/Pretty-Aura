@@ -6,3 +6,94 @@
 a{
     text-decoration: none;
 }
+.first-nav{
+    background-color: rgb(253, 220, 225);
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.nav-title img{
+    height: 60px;
+}
+.nav-title h2{
+    font-size: 30px;
+}
+.nav-title h2 span{
+    color: rgb(195, 0, 255);
+}
+.nav-list ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    gap: 4px;
+}
+.nav-list-item a{
+    color: blueviolet;
+    padding: 8px 12px;
+}
+.nav-list-item a:hover{
+    background-color: rgb(227, 198, 250);
+    border-radius: 10px;
+    transition: ease-in-out;
+}
+.btn{
+    background-color: rgb(159, 61, 250);
+    color: white;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+.btn-login{
+    background-color: blue;
+}
+.btn-signup{
+    background-color: rgb(173, 94, 248);
+}
+.btn-login:hover{
+    cursor: pointer;
+    background-color: #c7c4c4;
+}
+.btn-signup:hover{
+    cursor: pointer;
+    background-color: rgb(197, 194, 194);
+}
+.banner{
+    background-image: url(image/banner.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner h1{
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    padding-top: 80px;
+    text-shadow: 2px 2px 2px black;
+}
+.banner p{
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    padding-top: 8px;
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 28px;
+}
+.shop-btn{
+    background-color: blueviolet;
+    font-size: 25px;
+}
+.shop-btn:hover{
+    cursor: pointer;
+    background-color: rgb(198, 152, 241);
+}
